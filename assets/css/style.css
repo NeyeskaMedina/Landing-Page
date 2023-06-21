@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    border: 0px;
+    margin: 0%;
+}
+@font-face {
+    font-family: RacingOne;
+    src: url(../fonts/RacingSansOne.ttf);
+}
+h1{
+    font-family: RacingOne;
+}
+body{
+    background-color: rgb(4, 4, 29);
+    color: white;
+}
+header{
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(216, 221, 228, 0.205);
+    align-items: center;
+}
+.contain-logo{
+    width: 20vw;
+    padding-left: 3vw;
+    position: relative;
+}
+.contain-menu{
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.contain-menu a:link{    
+    text-decoration: none;
+    color: white;
+}
+.contain-menu a:active, a:visited{    
+    color: white;
+}
+header ul{
+    list-style: none;
+    display: inline-flex;
+    justify-items: center;
+    gap: 3vw;
+}
+header ul li{
+    font-size: larger;
+}
+section h1{
+    padding-left: 3vw;
+    padding-top: 3vh;
+}
+article{
+    display: flex;
+    display: inline-flex;
+}
+.auto{
+    position: relative;
+    width: 47vw;
+    padding-left: 3vw;
+    padding-top: 5vh;
+}
+.valorAuto{
+    width: 20vw;
+    position: relative;
+    align-self: center;
+    padding-left: 5vw;
+}
+.valorAuto h2{
+    background-color: rgb(16, 55, 184);
+}
+footer{
+    width: 100vw;
+    height: 5vh;
+    margin-top: 3vh;
+    text-align: center;
+    background-color:rgba(216, 221, 228, 0.205);
+}
+
